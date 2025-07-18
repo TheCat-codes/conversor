@@ -64,7 +64,7 @@ function App() {
         <input className='input' value={value} onChange={handleInputChange} type="number" />
         <button onClick={() => handleConvert(value)}>Convert</button>
       </div>
-      <h2>T: {result} {letter}</h2>
+      <h2>{result} {letter}</h2>
     </>
   )
 }
